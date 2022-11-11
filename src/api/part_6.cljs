@@ -1,8 +1,8 @@
 (ns api.part_6
   (:require ["@slack/bolt" :as bolt]))
 
-(def signing-secret "76a2306b45bd5707756268a132c2426b")
-(def bot-token "xoxb-4263016632995-4256491291334-aou9RrZH8RsbP3YPMAywhDnp")
+(def signing-secret "")
+(def bot-token "")
 
 (def app (new bolt/App (clj->js {:token bot-token
                                  :signingSecret signing-secret})))
