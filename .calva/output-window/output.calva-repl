@@ -1,0 +1,273 @@
+; The REPL worker has stopped.
+; nREPL Connection was closed
+cljs꞉api.part_6꞉> 
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: node-repl
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+api.part_6
+cljs꞉api.part_6꞉> 
+#'api.part_6/signing-secret
+cljs꞉api.part_6꞉> 
+#'api.part_6/bot-token
+cljs꞉api.part_6꞉> 
+#'api.part_6/app
+cljs꞉api.part_6꞉> 
+#object[Promise [object Promise]]
+cljs꞉api.part_6꞉> 
+nil
+cljs꞉api.part_6꞉> 
+part-1
+cljs꞉part-1꞉> 
+2
+cljs꞉part-1꞉> 
+(1 3 5 7 9)
+cljs꞉part-1꞉> 
+#'part-1/my-atom
+cljs꞉part-1꞉> 
+25
+cljs꞉part-1꞉> 
+9
+cljs꞉part-1꞉> 
+part-2
+cljs꞉part-2꞉> 
+hello
+nil
+cljs꞉part-2꞉> 
+#object[String]
+cljs꞉part-2꞉> 
+#object[String]
+cljs꞉part-2꞉> 
+true
+cljs꞉part-2꞉> 
+#'part-2/my-obj
+cljs꞉part-2꞉> 
+"world"
+cljs꞉part-2꞉> 
+"hello, world"
+cljs꞉part-2꞉> 
+false
+cljs꞉part-2꞉> 
+true
+cljs꞉part-2꞉> 
+"hello, world"
+cljs꞉part-2꞉> 
+false
+cljs꞉part-2꞉> 
+{
+  location: 'world',
+  sayHello: [Function (anonymous)],
+  areYouAt: [Function (anonymous)]
+}
+nil
+cljs꞉part-2꞉> 
+1666640225755
+cljs꞉part-2꞉> 
+#inst "2022-10-24T19:37:08.908-00:00"
+cljs꞉part-2꞉> 
+#js [1 2 3]
+cljs꞉part-2꞉> 
+
+; TypeError: (intermediate value).sort is not a function
+;     at cljsEval (<eval>:1:50)
+    at global.SHADOW_NODE_EVAL ([stdin]:90:10)
+    at Object.shadow$cljs$devtools$client$node$node_eval [as node_eval] (/Users/ryanechternacht/github/shadow-cljs-serverless/.shadow-cljs/builds/node-repl/dev/out/cljs-runtime/shadow/cljs/devtools/client/node.cljs:24:1)
+    at /Users/ryanechternacht/github/shadow-cljs-serverless/.shadow-cljs/builds/node-repl/dev/out/cljs-runtime/shadow/cljs/devtools/client/node.cljs:49:13
+    at Object.shadow$cljs$devtools$client$env$repl_call [as repl_call] (/Users/ryanechternacht/github/shadow-cljs-serverless/.shadow-cljs/builds/node-repl/dev/out/cljs-runtime/shadow/cljs/devtools/client/env.cljs:102:11)
+    at Object.shadow$cljs$devtools$client$node$repl_invoke [as repl_invoke] (/Users/ryanechternacht/github/shadow-cljs-serverless/.shadow-cljs/builds/node-repl/dev/out/cljs-runtime/shadow/cljs/devtools/client/node.cljs:47:1)
+    at shadow$cljs$devtools$client$node$process_message (/Users/ryanechternacht/github/shadow-cljs-serverless/.shadow-cljs/builds/node-repl/dev/out/cljs-runtime/shadow/cljs/devtools/client/node.cljs:118:5)
+    at /Users/ryanechternacht/github/shadow-cljs-serverless/.shadow-cljs/builds/node-repl/dev/out/cljs-runtime/shadow/cljs/devtools/client/env.cljs:180:9
+    at Object.shadow$cljs$devtools$client$env$process_next_BANG_ [as process_next_BANG_] (/Users/ryanechternacht/github/shadow-cljs-serverless/.shadow-cljs/builds/node-repl/dev/out/cljs-runtime/shadow/cljs/devtools/client/env.cljs:168:7)
+    at Object.shadow$cljs$devtools$client$env$process_ws_msg [as process_ws_msg] (/Users/ryanechternacht/github/shadow-cljs-serverless/.shadow-cljs/builds/node-repl/dev/out/cljs-runtime/shadow/cljs/devtools/client/env.cljs:181:7)
+cljs꞉part-3꞉> 
+┌─────────────────────────────────────┬───┬───┬───┬──────┬─────────────────────────────────────────┬───────────┐
+│               (index)               │ 0 │ 1 │ 2 │ edit │                   arr                   │  Values   │
+├─────────────────────────────────────┼───┼───┼───┼──────┼─────────────────────────────────────────┼───────────┤
+│                meta                 │   │   │   │      │                                         │   null    │
+│                 cnt                 │   │   │   │      │                                         │     3     │
+│                shift                │   │   │   │      │                                         │     5     │
+│                root                 │   │   │   │ null │ [ null, null, null, ... 29 more items ] │           │
+│                tail                 │ 3 │ 2 │ 1 │      │                                         │           │
+│               __hash                │   │   │   │      │                                         │   null    │
+│ cljs$
+lang$protocol_mask$partition0$ │   │   │   │      │                                         │ 167666463 │
+│ cljs$lang$protocol_mask$partition1$ │   │   │   │      │                                         │  139268   │
+└─────────────────────────────────────┴───┴───┴───┴──────┴─────────────────────────────────────────┴───────────┘
+nil
+cljs꞉part-3꞉> 
+┌─────────────────────────────────────┬──────────┬─────┬──────────┐
+│               (index)               │    0     │  1  │  Values  │
+├─────────────────────────────────────┼──────────┼─────┼──────────┤
+│                meta                 │          │     │   null   │
+│                 cnt                 │          │     │    1     │
+│                 arr                 │ [Object] │ 'b' │          │
+│               __hash                │          │     │   null   │
+│ cljs$lang$protocol_mask$partition0$ │          │     │ 16647951 │
+│ cljs$lang$protocol_mask$partition1$ │          │     │  139268  │
+└─────────────────────────────────────┴──────────┴─────┴──────────┘
+nil
+cljs꞉part-3꞉> 
+{:a "a", :b "b"}
+cljs꞉part-3꞉> 
+#js {:a "a", :b "b"}
+cljs꞉part-3꞉> 
+[3 2 1]
+cljs꞉part-3꞉> 
+#js [3 2 1]
+cljs꞉part-3꞉> 
+┌─────────┬────────┐
+│ (index) │ Values │
+├─────────┼────────┤
+│    0    │   3    │
+│    1    │   2    │
+│    2    │   1    │
+└─────────┴────────┘
+nil
+cljs꞉part-3꞉> 
+┌─────────┬────────┐
+│ (index) │ Values │
+├─────────┼────────┤
+│    a    │  'a'   │
+│    b    │  'b'   │
+└─────────┴────────┘
+nil
+cljs꞉part-3꞉> 
+#js [1 2 3]
+cljs꞉part-3꞉> 
+[1 2 3]
+cljs꞉part-3꞉> 
+#'part-4/my-obj
+cljs꞉part-4꞉> 
+part-4
+cljs꞉part-4꞉> 
+encoding of result failed Error: [object Object] is not ISeqable
+    at Object.cljs$core$seq [as seq] (/Users/ryanechternacht/github/shadow-cljs-serverless/.shadow-cljs/builds/node-repl/dev/out/cljs-runtime/cljs/core.cljs:1211:5)
+    at /Users/ryanechternacht/github/shadow-cljs-serverless/.shadow-cljs/builds/node-repl/dev/out/cljs-runtime/cljs/core.cljs:4710:4
+    at Object.sval (/Users/ryanechternacht/github/shadow-cljs-serverless/.shadow-cljs/builds/node-repl/dev/out/cljs-runtime/cljs/core.cljs:3421:7)
+    at Object.cljs$core$ISeqable$_seq$arity$1 (/Users/ryanechternacht/github/shadow-cljs-serverless/.shadow-cljs/builds/node-repl/dev/out/cljs-runtime/cljs/core.cljs:3412:1)
+    at Object.cljs$core$_seq [as _seq] (/Users/ryanechternacht/github/shadow-cljs-serverless/.shadow-cljs/builds/node-repl/dev/out/cljs-runtime/cljs/core.cljs:714:1)
+    at Object.cljs$core$seq [as seq] (/Users/ryanechternacht/github/shadow-cljs-serverless/.shadow-cljs/builds/node-repl/dev/out/cljs-runtime/cljs/core.cljs:1213:7)
+    at Ob
+ject.cljs$core$pr_sequential_writer [as pr_sequential_writer] (/Users/ryanechternacht/github/shadow-cljs-serverless/.shadow-cljs/builds/node-repl/dev/out/cljs-runtime/cljs/core.cljs:10035:11)
+    at Object.cljs$core$IPrintWithWriter$_pr_writer$arity$3 (/Users/ryanechternacht/github/shadow-cljs-serverless/.shadow-cljs/builds/node-repl/dev/out/cljs-runtime/cljs/core.cljs:10319:3)
+    at Object.cljs$core$_pr_writer [as _pr_writer] (/Users/ryanechternacht/github/shadow-cljs-serverless/.shadow-cljs/builds/node-repl/dev/out/cljs-runtime/cljs/core.cljs:757:1)
+    at Object.cljs$core$pr_writer_impl [as pr_writer_impl] (/Users/ryanechternacht/github/shadow-cljs-serverless/.shadow-cljs/builds/node-repl/dev/out/cljs-runtime/cljs/core.cljs:10103:9) {
+  meta: null,
+  fn: [Function (anonymous)],
+  s: null,
+  __hash: null,
+  'cljs$lang$protocol_mask$partition0$': 32374988,
+  'cljs$lang$protocol_mask$partition1$': 1
+}
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: :1:15
+ Use of undeclared Var part-4/my-obj
+--------------------------------------------------------------------------------
+cljs꞉part-4꞉> 
+(["location" "world"] ["sayHello" #object[Function]] ["areYouAt" #object[Function]])
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: :1:24
+ Use of undeclared Var part-4/my-obj
+--------------------------------------------------------------------------------
+cljs꞉part-4꞉> 
+{"location" "world", "sayHello" #object[Function], "areYouAt" #object[Function]}
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: :1:10
+ Use of undeclared Var part-4/my-obj
+--------------------------------------------------------------------------------
+cljs꞉part-4꞉> 
+#'part-4/my-obj
+cljs꞉part-4꞉> 
+{"location" "world", "sayHello" #object[Function], "areYouAt" #object[Function]}
+cljs꞉part-4꞉> 
+{:location "world", :sayHello #object[Function], :areYouAt #object[Function]}
+cljs꞉part-4꞉> 
+part-5
+cljs꞉part-5꞉> 
+#js {:DynamoDBServiceException #object[DynamoDBServiceException], :DynamoDB #object[DynamoDB], :DynamoDBClient #object[DynamoDBClient], :BatchExecuteStatementCommand #object[BatchExecuteStatementCommand], :BatchGetItemCommand #object[BatchGetItemCommand], :BatchWriteItemCommand #object[BatchWriteItemCommand], :CreateBackupCommand #object[CreateBackupCommand], :CreateGlobalTableCommand #object[CreateGlobalTableCommand], :CreateTableCommand #object[CreateTableCommand], :DeleteBackupCommand #object[DeleteBackupCommand], :DeleteItemCommand #object[DeleteItemCommand], :DeleteTableCommand #object[DeleteTableCommand], :DescribeBackupCommand #object[DescribeBackupCommand], :DescribeContinuousBackupsCommand #object[DescribeContinuousBackupsCommand], :DescribeContributorInsightsCommand #object[DescribeContributorInsightsCommand], :DescribeEndpointsCommand #object[DescribeEndpointsCommand], :DescribeExportCommand #object[DescribeExportCommand], :DescribeGlobalTableCommand #object[DescribeGlobalTableCommand], :DescribeGlobalTableSettingsCommand #object[DescribeGlobalTableSettingsCommand], :DescribeImportCommand #object[DescribeImportCommand], :DescribeKinesisStreamingDestinationCommand #object[DescribeKinesisStreamingDestinationCommand], :DescribeLimitsCommand #object[DescribeLimitsCommand], :DescribeTableCommand #object[DescribeTableCommand], :DescribeTableReplicaAutoScalingCommand #object[DescribeTableReplicaAutoScalingCommand], :DescribeTimeToLiveCommand #object[DescribeTimeToLiveCommand], :DisableKinesisStreamingDestinationCommand #object[DisableKinesisStreamingDestinationCommand], :EnableKinesisStreamingDestinationCommand #object[EnableKinesisStreamingDestinationCommand], :ExecuteStatementCommand #object[ExecuteStatementCommand], :ExecuteTransactionCommand #object[ExecuteTransactionCommand], :ExportTableToPointInTimeCommand #object[ExportTableToPointInTimeCommand], :GetItemCommand #object[GetItemCommand], :ImportTableCommand #object[ImportTableCommand], :ListBackupsCommand #object[ListBackupsCommand], :ListContributorInsightsCommand #object[ListContributorInsightsCommand], :ListExportsCommand #object[ListExportsCommand], :ListGlobalTablesCommand #object[ListGlobalTablesCommand], :ListImportsCommand #object[ListImportsCommand], :ListTablesCommand #object[ListTablesCommand], :ListTagsOfResourceCommand #object[ListTagsOfResourceCommand], :PutItemCommand #object[PutItemCommand], :QueryCommand #object[QueryCommand], :RestoreTableFromBackupCommand #object[RestoreTableFromBackupCommand], :RestoreTableToPointInTimeCommand #object[RestoreTableToPointInTimeCommand], :ScanCommand #object[ScanCommand], :TagResourceCommand #object[TagResourceCommand], :TransactGetItemsCommand #object[TransactGetItemsCommand], :TransactWriteItemsCommand #object[TransactWriteItemsCommand], :UntagResourceCommand #object[UntagResourceCommand], :UpdateContinuousBackupsCommand #object[UpdateContinuousBackupsCommand], :UpdateContributorInsightsCommand #object[UpdateContributorInsightsCommand], :UpdateGlobalTableCommand #object[UpdateGlobalTableCommand], :UpdateGlobalTableSettingsCommand #object[UpdateGlobalTableSettingsCommand], :UpdateItemCommand #object[UpdateItemCommand], :UpdateTableCommand #object[UpdateTableCommand], :UpdateTableReplicaAutoScalingCommand #object[UpdateTableReplicaAutoScalingCommand], :UpdateTimeToLiveCommand #object[UpdateTimeToLiveCommand], :BackupType #js {:AWS_BACKUP "AWS_BACKUP", :SYSTEM "SYSTEM", :USER "USER"}, :BackupInUseException #object[BackupInUseException], :BackupNotFoundException #object[BackupNotFoundException], :BackupTypeFilter #js {:ALL "ALL", :AWS_BACKUP "AWS_BACKUP", :SYSTEM "SYSTEM", :USER "USER"}, :BatchStatementErrorCodeEnum #js {:AccessDenied "AccessDenied", :ConditionalCheckFailed "ConditionalCheckFailed", :DuplicateItem "DuplicateItem", :InternalServerError "InternalServerError", :ItemCollectionSizeLimitExceeded "ItemCollectionSizeLimitExceeded", :ProvisionedThroughputExceeded "ProvisionedThroughputExceeded", :RequestLimitExceeded "RequestLimitExceeded", :ResourceNotFound "ResourceNotFound", :ThrottlingError "ThrottlingError", :TransactionConflict "TransactionConflict", :ValidationError "ValidationError"}, :InternalServerError #object[InternalServerError], :RequestLimitExceeded #object[RequestLimitExceeded], :InvalidEndpointException #object[InvalidEndpointException], :ProvisionedThroughputExceededException #object[ProvisionedThroughputExceededException], :ResourceNotFoundException #object[ResourceNotFoundException], :ItemCollectionSizeLimitExceededException #object[ItemCollectionSizeLimitExceededException], :ConditionalCheckFailedException #object[ConditionalCheckFailedException], :ContinuousBackupsUnavailableException #object[ContinuousBackupsUnavailableException], :LimitExceededException #object[LimitExceededException], :TableInUseException #object[TableInUseException], :TableNotFoundException #object[TableNotFoundException], :TableClass #js {:STANDARD "STANDARD", :STANDARD_INFREQUENT_ACCESS "STANDARD_INFREQUENT_ACCESS"}, :GlobalTableAlreadyExistsException #object[GlobalTableAlreadyExistsException], :ResourceInUseException #object[ResourceInUseException], :TransactionConflictException #object[TransactionConflictException], :ExportFormat #js {:DYNAMODB_JSON "DYNAMODB_JSON", :ION "ION"}, :ExportStatus #js {:COMPLETED "COMPLETED", :FAILED "FAILED", :IN_PROGRESS "IN_PROGRESS"}, :ExportNotFoundException #object[ExportNotFoundException], :GlobalTableNotFoundException #object[GlobalTableNotFoundException], :ImportStatus #js {:CANCELLED "CANCELLED", :CANCELLING "CANCELLING", :COMPLETED "COMPLETED", :FAILED "FAILED", :IN_PROGRESS "IN_PROGRESS"}, :InputCompressionType #js {:GZIP "GZIP", :NONE "NONE", :ZSTD "ZSTD"}, :InputFormat #js {:CSV "CSV", :DYNAMODB_JSON "DYNAMODB_JSON", :ION "ION"}, :ImportNotFoundException #object[ImportNotFoundException], :DuplicateItemException #object[DuplicateItemException], :IdempotentParameterMismatchException #object[IdempotentParameterMismatchException], :TransactionInProgressException #object[TransactionInProgressException], :ExportConflictException #object[ExportConflictException], :InvalidExportTimeException #object[InvalidExportTimeException], :PointInTimeRecoveryUnavailableException #object[PointInTimeRecoveryUnavailableException], :ImportConflictException #object[ImportConflictException], :TableAlreadyExistsException #object[TableAlreadyExistsException], :InvalidRestoreTimeException #object[InvalidRestoreTimeException], :ReplicaAlreadyExistsException #object[ReplicaAlreadyExistsException], :ReplicaNotFoundException #object[ReplicaNotFoundException], :IndexNotFoundException #object[IndexNotFoundException], :AttributeValue #js {:visit #object[Function]}, :TransactionCanceledException #object[TransactionCanceledException], :ArchivalSummaryFilterSensitiveLog #object[ArchivalSummaryFilterSensitiveLog], :AttributeDefinitionFilterSensitiveLog #object[AttributeDefinitionFilterSensitiveLog], :AutoScalingTargetTrackingScalingPolicyConfigurationDescriptionFilterSensitiveLog #object[AutoScalingTargetTrackingScalingPolicyConfigurationDescriptionFilterSensitiveLog], :AutoScalingPolicyDescriptionFilterSensitiveLog #object[AutoScalingPolicyDescriptionFilterSensitiveLog], :AutoScalingTargetTrackingScalingPolicyConfigurationUpdateFilterSensitiveLog #object[AutoScalingTargetTrackingScalingPolicyConfigurationUpdateFilterSensitiveLog], :AutoScalingPolicyUpdateFilterSensitiveLog #object[AutoScalingPolicyUpdateFilterSensitiveLog], :AutoScalingSettingsDescriptionFilterSensitiveLog #object[AutoScalingSettingsDescriptionFilterSensitiveLog], :AutoScalingSettingsUpdateFilterSensitiveLog #object[AutoScalingSettingsUpdateFilterSensitiveLog], :BackupDetailsFilterSensitiveLog #object[BackupDetailsFilterSensitiveLog], :KeySchemaElementFilterSensitiveLog #object[KeySchemaElementFilterSensitiveLog], :ProvisionedThroughputFilterSensitiveLog #object[ProvisionedThroughputFilterSensitiveLog], :SourceTableDetailsFilterSensitiveLog #object[SourceTableDetailsFilterSensitiveLog], :ProjectionFilterSensitiveLog #object[ProjectionFilterSensitiveLog], :GlobalSecondaryIndexInfoFilterSensitiveLog #object[GlobalSecondaryIndexInfoFilterSensitiveLog], :LocalSecondaryIndexInfoFilterSensitiveLog #object[LocalSecondaryIndexInfoFilterSensitiveLog], :SSEDescriptionFilterSensitiveLog #object[SSEDescriptionFilterSensitiveLog], :StreamSpecificationFilterSensitiveLog #object[StreamSpecificationFilterSensitiveLog], :TimeToLiveDescriptionFilterSensitiveLog #object[TimeToLiveDescriptionFilterSensitiveLog], :SourceTableFeatureDetailsFilterSensitiveLog #object[SourceTableFeatureDetailsFilterSensitiveLog], :BackupDescriptionFilterSensitiveLog #object[BackupDescriptionFilterSensitiveLog], :BackupSummaryFilterSensitiveLog #object[BackupSummaryFilterSensitiveLog], :CapacityFilterSensitiveLog #object[CapacityFilterSensitiveLog], :ConsumedCapacityFilterSensitiveLog #object[ConsumedCapacityFilterSensitiveLog], :BatchStatementErrorFilterSensitiveLog #object[BatchStatementErrorFilterSensitiveLog], :BillingModeSummaryFilterSensitiveLog #object[BillingModeSummaryFilterSensitiveLog], :PointInTimeRecoveryDescriptionFilterSensitiveLog #object[PointInTimeRecoveryDescriptionFilterSensitiveLog], :ContinuousBackupsDescriptionFilterSensitiveLog #object[ContinuousBackupsDescriptionFilterSensitiveLog], :ContributorInsightsSummaryFilterSensitiveLog #object[ContributorInsightsSummaryFilterSensitiveLog], :CreateBackupInputFilterSensitiveLog #object[CreateBackupInputFilterSensitiveLog], :CreateBackupOutputFilterSensitiveLog #object[CreateBackupOutputFilterSensitiveLog], :CreateGlobalSecondaryIndexActionFilterSensitiveLog #object[CreateGlobalSecondaryIndexActionFilterSensitiveLog], :ReplicaFilterSensitiveLog #object[ReplicaFilterSensitiveLog], :CreateGlobalTableInputFilterSensitiveLog #object[CreateGlobalTableInputFilterSensitiveLog], :ProvisionedThroughputOverrideFilterSensitiveLog #object[ProvisionedThroughputOverrideFilterSensitiveLog], :ReplicaGlobalSecondaryIndexDescriptionFilterSensitiveLog #object[ReplicaGlobalSecondaryIndexDescriptionFilterSensitiveLog], :TableClassSummaryFilterSensitiveLog #object[TableClassSummaryFilterSensitiveLog], :ReplicaDescriptionFilterSensitiveLog #object[ReplicaDescriptionFilterSensitiveLog], :GlobalTableDescriptionFilterSensitiveLog #object[GlobalTableDescriptionFilterSensitiveLog], :CreateGlobalTableOutputFilterSensitiveLog #object[CreateGlobalTableOutputFilterSensitiveLog], :CreateReplicaActionFilterSensitiveLog #object[CreateReplicaActionFilterSensitiveLog], :ReplicaGlobalSecondaryIndexFilterSensitiveLog #object[ReplicaGlobalSecondaryIndexFilterSensitiveLog], :CreateReplicationGroupMemberActionFilterSensitiveLog #object[CreateReplicationGroupMemberActionFilterSensitiveLog], :GlobalSecondaryIndexFilterSensitiveLog #object[GlobalSecondaryIndexFilterSensitiveLog], :LocalSecondaryIndexFilterSensitiveLog #object[LocalSecondaryIndexFilterSensitiveLog], :SSESpecificationFilterSensitiveLog #object[SSESpecificationFilterSensitiveLog], :TagFilterSensitiveLog #object[TagFilterSensitiveLog], :CreateTableInputFilterSensitiveLog #object[CreateTableInputFilterSensitiveLog], :ProvisionedThroughputDescriptionFilterSensitiveLog #object[ProvisionedThroughputDescriptionFilterSensitiveLog], :GlobalSecondaryIndexDescriptionFilterSensitiveLog #object[GlobalSecondaryIndexDescriptionFilterSensitiveLog], :LocalSecondaryIndexDescriptionFilterSensitiveLog #object[LocalSecondaryIndexDescriptionFilterSensitiveLog], :RestoreSummaryFilterSensitiveLog #object[RestoreSummaryFilterSensitiveLog], :TableDescriptionFilterSensitiveLog #object[TableDescriptionFilterSensitiveLog], :CreateTableOutputFilterSensitiveLog #object[CreateTableOutputFilterSensitiveLog], :CsvOptionsFilterSensitiveLog #object[CsvOptionsFilterSensitiveLog], :DeleteBackupInputFilterSensitiveLog #object[DeleteBackupInputFilterSensitiveLog], :DeleteBackupOutputFilterSensitiveLog #object[DeleteBackupOutputFilterSensitiveLog], :DeleteGlobalSecondaryIndexActionFilterSensitiveLog #object[DeleteGlobalSecondaryIndexActionFilterSensitiveLog], :DeleteReplicaActionFilterSensitiveLog #object[DeleteReplicaActionFilterSensitiveLog], :DeleteReplicationGroupMemberActionFilterSensitiveLog #object[DeleteReplicationGroupMemberActionFilterSensitiveLog], :DeleteTableInputFilterSensitiveLog #object[DeleteTableInputFilterSensitiveLog], :DeleteTableOutputFilterSensitiveLog #object[DeleteTableOutputFilterSensitiveLog], :DescribeBackupInputFilterSensitiveLog #object[DescribeBackupInputFilterSensitiveLog], :DescribeBackupOutputFilterSensitiveLog #object[DescribeBackupOutputFilterSensitiveLog], :DescribeContinuousBackupsInputFilterSensitiveLog #object[DescribeContinuousBackupsInputFilterSensitiveLog], :DescribeContinuousBackupsOutputFilterSensitiveLog #object[DescribeContinuousBackupsOutputFilterSensitiveLog], :DescribeContributorInsightsInputFilterSensitiveLog #object[DescribeContributorInsightsInputFilterSensitiveLog], :FailureExceptionFilterSensitiveLog #object[FailureExceptionFilterSensitiveLog], :DescribeContributorInsightsOutputFilterSensitiveLog #object[DescribeContributorInsightsOutputFilterSensitiveLog], :DescribeEndpointsRequestFilterSensitiveLog #object[DescribeEndpointsRequestFilterSensitiveLog], :EndpointFilterSensitiveLog #object[EndpointFilterSensitiveLog], :DescribeEndpointsResponseFilterSensitiveLog #object[DescribeEndpointsResponseFilterSensitiveLog], :DescribeExportInputFilterSensitiveLog #object[DescribeExportInputFilterSensitiveLog], :ExportDescriptionFilterSensitiveLog #object[ExportDescriptionFilterSensitiveLog], :DescribeExportOutputFilterSensitiveLog #object[DescribeExportOutputFilterSensitiveLog], :DescribeGlobalTableInputFilterSensitiveLog #object[DescribeGlobalTableInputFilterSensitiveLog], :DescribeGlobalTableOutputFilterSensitiveLog #object[DescribeGlobalTableOutputFilterSensitiveLog], :DescribeGlobalTableSettingsInputFilterSensitiveLog #object[DescribeGlobalTableSettingsInputFilterSensitiveLog], :ReplicaGlobalSecondaryIndexSettingsDescriptionFilterSensitiveLog #object[ReplicaGlobalSecondaryIndexSettingsDescriptionFilterSensitiveLog], :ReplicaSettingsDescriptionFilterSensitiveLog #object[ReplicaSettingsDescriptionFilterSensitiveLog], :DescribeGlobalTableSettingsOutputFilterSensitiveLog #object[DescribeGlobalTableSettingsOutputFilterSensitiveLog], :DescribeImportInputFilterSensitiveLog #object[DescribeImportInputFilterSensitiveLog], :InputFormatOptionsFilterSensitiveLog #object[InputFormatOptionsFilterSensitiveLog], :S3BucketSourceFilterSensitiveLog #object[S3BucketSourceFilterSensitiveLog], :TableCreationParametersFilterSensitiveLog #object[TableCreationParametersFilterSensitiveLog], :ImportTableDescriptionFilterSensitiveLog #object[ImportTableDescriptionFilterSensitiveLog], :DescribeImportOutputFilterSensitiveLog #object[DescribeImportOutputFilterSensitiveLog], :DescribeKinesisStreamingDestinationInputFilterSensitiveLog #object[DescribeKinesisStreamingDestinationInputFilterSensitiveLog], :KinesisDataStreamDestinationFilterSensitiveLog #object[KinesisDataStreamDestinationFilterSensitiveLog], :DescribeKinesisStreamingDestinationOutputFilterSensitiveLog #object[DescribeKinesisStreamingDestinationOutputFilterSensitiveLog], :DescribeLimitsInputFilterSensitiveLog #object[DescribeLimitsInputFilterSensitiveLog], :DescribeLimitsOutputFilterSensitiveLog #object[DescribeLimitsOutputFilterSensitiveLog], :DescribeTableInputFilterSensitiveLog #object[DescribeTableInputFilterSensitiveLog], :DescribeTableOutputFilterSensitiveLog #object[DescribeTableOutputFilterSensitiveLog], :DescribeTableReplicaAutoScalingInputFilterSensitiveLog #object[DescribeTableReplicaAutoScalingInputFilterSensitiveLog], :ReplicaGlobalSecondaryIndexAutoScalingDescriptionFilterSensitiveLog #object[ReplicaGlobalSecondaryIndexAutoScalingDescriptionFilterSensitiveLog], :ReplicaAutoScalingDescriptionFilterSensitiveLog #object[ReplicaAutoScalingDescriptionFilterSensitiveLog], :TableAutoScalingDescriptionFilterSensitiveLog #object[TableAutoScalingDescriptionFilterSensitiveLog], :DescribeTableReplicaAutoScalingOutputFilterSensitiveLog #object[DescribeTableReplicaAutoScalingOutputFilterSensitiveLog], :DescribeTimeToLiveInputFilterSensitiveLog #object[DescribeTimeToLiveInputFilterSensitiveLog], :DescribeTimeToLiveOutputFilterSensitiveLog #object[DescribeTimeToLiveOutputFilterSensitiveLog], :KinesisStreamingDestinationInputFilterSensitiveLog #object[KinesisStreamingDestinationInputFilterSensitiveLog], :KinesisStreamingDestinationOutputFilterSensitiveLog #object[KinesisStreamingDestinationOutputFilterSensitiveLog], :ExportTableToPointInTimeInputFilterSensitiveLog #object[ExportTableToPointInTimeInputFilterSensitiveLog], :ExportTableToPointInTimeOutputFilterSensitiveLog #object[ExportTableToPointInTimeOutputFilterSensitiveLog], :ImportTableInputFilterSensitiveLog #object[ImportTableInputFilterSensitiveLog], :ImportTableOutputFilterSensitiveLog #object[ImportTableOutputFilterSensitiveLog], :ListBackupsInputFilterSensitiveLog #object[ListBackupsInputFilterSensitiveLog], :ListBackupsOutputFilterSensitiveLog #object[ListBackupsOutputFilterSensitiveLog], :ListContributorInsightsInputFilterSensitiveLog #object[ListContributorInsightsInputFilterSensitiveLog], :ListContributorInsightsOutputFilterSensitiveLog #object[ListContributorInsightsOutputFilterSensitiveLog], :ListExportsInputFilterSensitiveLog #object[ListExportsInputFilterSensitiveLog], :ExportSummaryFilterSensitiveLog #object[ExportSummaryFilterSensitiveLog], :ListExportsOutputFilterSensitiveLog #object[ListExportsOutputFilterSensitiveLog], :ListGlobalTablesInputFilterSensitiveLog #object[ListGlobalTablesInputFilterSensitiveLog], :GlobalTableFilterSensitiveLog #object[GlobalTableFilterSensitiveLog], :ListGlobalTablesOutputFilterSensitiveLog #object[ListGlobalTablesOutputFilterSensitiveLog], :ListImportsInputFilterSensitiveLog #object[ListImportsInputFilterSensitiveLog], :ImportSummaryFilterSensitiveLog #object[ImportSummaryFilterSensitiveLog], :ListImportsOutputFilterSensitiveLog #object[ListImportsOutputFilterSensitiveLog], :ListTablesInputFilterSensitiveLog #object[ListTablesInputFilterSensitiveLog], :ListTablesOutputFilterSensitiveLog #object[ListTablesOutputFilterSensitiveLog], :ListTagsOfResourceInputFilterSensitiveLog #object[ListTagsOfResourceInputFilterSensitiveLog], :ListTagsOfResourceOutputFilterSensitiveLog #object[ListTagsOfResourceOutputFilterSensitiveLog], :RestoreTableFromBackupInputFilterSensitiveLog #object[RestoreTableFromBackupInputFilterSensitiveLog], :RestoreTableFromBackupOutputFilterSensitiveLog #object[RestoreTableFromBackupOutputFilterSensitiveLog], :RestoreTableToPointInTimeInputFilterSensitiveLog #object[RestoreTableToPointInTimeInputFilterSensitiveLog], :RestoreTableToPointInTimeOutputFilterSensitiveLog #object[RestoreTableToPointInTimeOutputFilterSensitiveLog], :TagResourceInputFilterSensitiveLog #object[TagResourceInputFilterSensitiveLog], :UntagResourceInputFilterSensitiveLog #object[UntagResourceInputFilterSensitiveLog], :PointInTimeRecoverySpecificationFilterSensitiveLog #object[PointInTimeRecoverySpecificationFilterSensitiveLog], :UpdateContinuousBackupsInputFilterSensitiveLog #object[UpdateContinuousBackupsInputFilterSensitiveLog], :UpdateContinuousBackupsOutputFilterSensitiveLog #object[UpdateContinuousBackupsOutputFilterSensitiveLog], :UpdateContributorInsightsInputFilterSensitiveLog #object[UpdateContributorInsightsInputFilterSensitiveLog], :UpdateContributorInsightsOutputFilterSensitiveLog #object[UpdateContributorInsightsOutputFilterSensitiveLog], :ReplicaUpdateFilterSensitiveLog #object[ReplicaUpdateFilterSensitiveLog], :UpdateGlobalTableInputFilterSensitiveLog #object[UpdateGlobalTableInputFilterSensitiveLog], :UpdateGlobalTableOutputFilterSensitiveLog #object[UpdateGlobalTableOutputFilterSensitiveLog], :GlobalTableGlobalSecondaryIndexSettingsUpdateFilterSensitiveLog #object[GlobalTableGlobalSecondaryIndexSettingsUpdateFilterSensitiveLog], :ReplicaGlobalSecondaryIndexSettingsUpdateFilterSensitiveLog #object[ReplicaGlobalSecondaryIndexSettingsUpdateFilterSensitiveLog], :ReplicaSettingsUpdateFilterSensitiveLog #object[ReplicaSettingsUpdateFilterSensitiveLog], :UpdateGlobalTableSettingsInputFilterSensitiveLog #object[UpdateGlobalTableSettingsInputFilterSensitiveLog], :UpdateGlobalTableSettingsOutputFilterSensitiveLog #object[UpdateGlobalTableSettingsOutputFilterSensitiveLog], :UpdateGlobalSecondaryIndexActionFilterSensitiveLog #object[UpdateGlobalSecondaryIndexActionFilterSensitiveLog], :GlobalSecondaryIndexUpdateFilterSensitiveLog #object[GlobalSecondaryIndexUpdateFilterSensitiveLog], :UpdateReplicationGroupMemberActionFilterSensitiveLog #object[UpdateReplicationGroupMemberActionFilterSensitiveLog], :ReplicationGroupUpdateFilterSensitiveLog #object[ReplicationGroupUpdateFilterSensitiveLog], :UpdateTableInputFilterSensitiveLog #object[UpdateTableInputFilterSensitiveLog], :UpdateTableOutputFilterSensitiveLog #object[UpdateTableOutputFilterSensitiveLog], :GlobalSecondaryIndexAutoScalingUpdateFilterSensitiveLog #object[GlobalSecondaryIndexAutoScalingUpdateFilterSensitiveLog], :ReplicaGlobalSecondaryIndexAutoScalingUpdateFilterSensitiveLog #object[ReplicaGlobalSecondaryIndexAutoScalingUpdateFilterSensitiveLog], :ReplicaAutoScalingUpdateFilterSensitiveLog #object[ReplicaAutoScalingUpdateFilterSensitiveLog], :UpdateTableReplicaAutoScalingInputFilterSensitiveLog #object[UpdateTableReplicaAutoScalingInputFilterSensitiveLog], :UpdateTableReplicaAutoScalingOutputFilterSensitiveLog #object[UpdateTableReplicaAutoScalingOutputFilterSensitiveLog], :TimeToLiveSpecificationFilterSensitiveLog #object[TimeToLiveSpecificationFilterSensitiveLog], :UpdateTimeToLiveInputFilterSensitiveLog #object[UpdateTimeToLiveInputFilterSensitiveLog], :UpdateTimeToLiveOutputFilterSensitiveLog #object[UpdateTimeToLiveOutputFilterSensitiveLog], :AttributeValueFilterSensitiveLog #object[AttributeValueFilterSensitiveLog], :AttributeValueUpdateFilterSensitiveLog #object[AttributeValueUpdateFilterSensitiveLog], :BatchStatementRequestFilterSensitiveLog #object[BatchStatementRequestFilterSensitiveLog], :BatchStatementResponseFilterSensitiveLog #object[BatchStatementResponseFilterSensitiveLog], :CancellationReasonFilterSensitiveLog #object[CancellationReasonFilterSensitiveLog], :ConditionFilterSensitiveLog #object[ConditionFilterSensitiveLog], :DeleteRequestFilterSensitiveLog #object[DeleteRequestFilterSensitiveLog], :ExecuteStatementInputFilterSensitiveLog #object[ExecuteStatementInputFilterSensitiveLog], :GetFilterSensitiveLog #object[GetFilterSensitiveLog], :GetItemInputFilterSensitiveLog #object[GetItemInputFilterSensitiveLog], :GetItemOutputFilterSensitiveLog #object[GetItemOutputFilterSensitiveLog], :ItemCollectionMetricsFilterSensitiveLog #object[ItemCollectionMetricsFilterSensitiveLog], :ItemResponseFilterSensitiveLog #object[ItemResponseFilterSensitiveLog], :ParameterizedStatementFilterSensitiveLog #object[ParameterizedStatementFilterSensitiveLog], :PutRequestFilterSensitiveLog #object[PutRequestFilterSensitiveLog], :KeysAndAttributesFilterSensitiveLog #object[KeysAndAttributesFilterSensitiveLog], :TransactGetItemFilterSensitiveLog #object[TransactGetItemFilterSensitiveLog], :BatchExecuteStatementInputFilterSensitiveLog #object[BatchExecuteStatementInputFilterSensitiveLog], :BatchExecuteStatementOutputFilterSensitiveLog #object[BatchExecuteStatementOutputFilterSensitiveLog], :ExecuteTransactionInputFilterSensitiveLog #object[ExecuteTransactionInputFilterSensitiveLog], :ExecuteTransactionOutputFilterSensitiveLog #object[ExecuteTransactionOutputFilterSensitiveLog], :TransactGetItemsOutputFilterSensitiveLog #object[TransactGetItemsOutputFilterSensitiveLog], :BatchGetItemInputFilterSensitiveLog #object[BatchGetItemInputFilterSensitiveLog], :ExpectedAttributeValueFilterSensitiveLog #object[ExpectedAttributeValueFilterSensitiveLog], :TransactGetItemsInputFilterSensitiveLog #object[TransactGetItemsInputFilterSensitiveLog], :TransactWriteItemsOutputFilterSensitiveLog #object[TransactWriteItemsOutputFilterSensitiveLog], :ConditionCheckFilterSensitiveLog #object[ConditionCheckFilterSensitiveLog], :DeleteFilterSensitiveLog #object[DeleteFilterSensitiveLog], :PutFilterSensitiveLog #object[PutFilterSensitiveLog], :UpdateFilterSensitiveLog #object[UpdateFilterSensitiveLog], :DeleteItemOutputFilterSensitiveLog #object[DeleteItemOutputFilterSensitiveLog], :ExecuteStatementOutputFilterSensitiveLog #object[ExecuteStatementOutputFilterSensitiveLog], :PutItemOutputFilterSensitiveLog #object[PutItemOutputFilterSensitiveLog], :QueryOutputFilterSensitiveLog #object[QueryOutputFilterSensitiveLog], :ScanOutputFilterSensitiveLog #object[ScanOutputFilterSensitiveLog], :UpdateItemOutputFilterSensitiveLog #object[UpdateItemOutputFilterSensitiveLog], :WriteRequestFilterSensitiveLog #object[WriteRequestFilterSensitiveLog], :BatchGetItemOutputFilterSensitiveLog #object[BatchGetItemOutputFilterSensitiveLog], :ScanInputFilterSensitiveLog #object[ScanInputFilterSensitiveLog], :BatchWriteItemInputFilterSensitiveLog #object[BatchWriteItemInputFilterSensitiveLog], :DeleteItemInputFilterSensitiveLog #object[DeleteItemInputFilterSensitiveLog], :PutItemInputFilterSensitiveLog #object[PutItemInputFilterSensitiveLog], :QueryInputFilterSensitiveLog #object[QueryInputFilterSensitiveLog], :BatchWriteItemOutputFilterSensitiveLog #object[BatchWriteItemOutputFilterSensitiveLog], :UpdateItemInputFilterSensitiveLog #object[UpdateItemInputFilterSensitiveLog], :TransactWriteItemFilterSensitiveLog #object[TransactWriteItemFilterSensitiveLog], :TransactWriteItemsInputFilterSensitiveLog #object[TransactWriteItemsInputFilterSensitiveLog], :paginateListContributorInsights #object[paginateListContributorInsights], :paginateListExports #object[paginateListExports], :paginateListImports #object[paginateListImports], :paginateListTables #object[paginateListTables], :paginateQuery #object[paginateQuery], :paginateScan #object[paginateScan], :waitForTableExists #object[waitForTableExists], :waitUntilTableExists #object[waitUntilTableExists], :waitForTableNotExists #object[waitForTableNotExists], :waitUntilTableNotExists #object[waitUntilTableNotExists]}
+cljs꞉part-5꞉> 
+("SourceTableDetailsFilterSensitiveLog" "waitForTableExists" "ConditionFilterSensitiveLog" "CreateGlobalSecondaryIndexActionFilterSensitiveLog" "RestoreTableToPointInTimeCommand" "PutItemCommand" "TableAutoScalingDescriptionFilterSensitiveLog" "ProvisionedThroughputFilterSensitiveLog" "BatchGetItemInputFilterSensitiveLog" "UpdateContinuousBackupsInputFilterSensitiveLog" "InputFormatOptionsFilterSensitiveLog" "DescribeImportOutputFilterSensitiveLog" "DescribeTableReplicaAutoScalingOutputFilterSensitiveLog" "ListTagsOfResourceInputFilterSensitiveLog" "ListTagsOfResourceCommand" "AutoScalingSettingsDescriptionFilterSensitiveLog" "ListContributorInsightsCommand" "CreateBackupOutputFilterSensitiveLog" "ListExportsOutputFilterSensitiveLog" "ReplicaAutoScalingUpdateFilterSensitiveLog" "DescribeGlobalTableCommand" "ImportNotFoundException" "ReplicaSettingsDescriptionFilterSensitiveLog" "DeleteRequestFilterSensitiveLog" "ExpectedAttributeValueFilterSensitiveLog" "IndexNotFoundException" "CreateBackupInputFilterSensitiveLog" "ExecuteTransactionCommand" "ContributorInsightsSummaryFilterSensitiveLog" "RestoreSummaryFilterSensitiveLog" "TransactGetItemsOutputFilterSensitiveLog" "TransactionInProgressException" "EnableKinesisStreamingDestinationCommand" "ImportStatus" "paginateListTables" "BatchExecuteStatementOutputFilterSensitiveLog" "ExportConflictException" "ListImportsCommand" "DescribeBackupOutputFilterSensitiveLog" "UpdateContinuousBackupsOutputFilterSensitiveLog" "ExportStatus" "AutoScalingPolicyDescriptionFilterSensitiveLog" "GlobalTableAlreadyExistsException" "PointInTimeRecoverySpecificationFilterSensitiveLog" "DescribeEndpointsCommand" "UpdateGlobalTableCommand" "BatchStatementErrorCodeEnum" "ListBackupsOutputFilterSensitiveLog" "ListTablesCommand" "TransactionCanceledException" "ReplicaGlobalSecondaryIndexAutoScalingUpdateFilterSensitiveLog" "AutoScalingTargetTrackingScalingPolicyConfigurationUpdateFilterSensitiveLog" "GlobalSecondaryIndexUpdateFilterSensitiveLog" "UpdateGlobalTableInputFilterSensitiveLog" "DescribeImportInputFilterSensitiveLog" "TransactWriteItemsOutputFilterSensitiveLog" "ProvisionedThroughputDescriptionFilterSensitiveLog" "DescribeKinesisStreamingDestinationInputFilterSensitiveLog" "GlobalTableFilterSensitiveLog" "GetFilterSensitiveLog" "ImportTableDescriptionFilterSensitiveLog" "UpdateContinuousBackupsCommand" "CreateReplicationGroupMemberActionFilterSensitiveLog" "DeleteTableInputFilterSensitiveLog" "DescribeContinuousBackupsInputFilterSensitiveLog" "AttributeValueUpdateFilterSensitiveLog" "paginateListExports" "paginateListContributorInsights" "GlobalSecondaryIndexInfoFilterSensitiveLog" "UpdateTableReplicaAutoScalingCommand" "ListImportsOutputFilterSensitiveLog" "DeleteReplicaActionFilterSensitiveLog" "DescribeContinuousBackupsCommand" "DescribeContributorInsightsInputFilterSensitiveLog" "GetItemInputFilterSensitiveLog" "ListContributorInsightsInputFilterSensitiveLog" "DynamoDBServiceException" "ContinuousBackupsUnavailableException" "InvalidEndpointException" "ExportTableToPointInTimeCommand" "DescribeLimitsCommand" "BatchWriteItemInputFilterSensitiveLog" "UpdateTableCommand" "UpdateReplicationGroupMemberActionFilterSensitiveLog" "TimeToLiveSpecificationFilterSensitiveLog" "PointInTimeRecoveryUnavailableException" "ReplicaUpdateFilterSensitiveLog" "ResourceInUseException" "RestoreTableToPointInTimeOutputFilterSensitiveLog" "LimitExceededException" "GlobalTableGlobalSecondaryIndexSettingsUpdateFilterSensitiveLog" "DescribeTimeToLiveInputFilterSensitiveLog" "DescribeGlobalTableSettingsInputFilterSensitiveLog" "CreateTableOutputFilterSensitiveLog" "TransactWriteItemsCommand" "BackupDescriptionFilterSensitiveLog" "TransactionConflictException" "TimeToLiveDescriptionFilterSensitiveLog" "ItemCollectionSizeLimitExceededException" "DescribeExportInputFilterSensitiveLog" "QueryOutputFilterSensitiveLog" "paginateListImports" "DescribeLimitsInputFilterSensitiveLog" "TableClass" "GlobalSecondaryIndexFilterSensitiveLog" "ArchivalSummaryFilterSensitiveLog" "ListTablesOutputFilterSensitiveLog" "UpdateItemOutputFilterSensitiveLog" "TableClassSummaryFilterSensitiveLog" "ReplicaSettingsUpdateFilterSensitiveLog" "UpdateTableInputFilterSensitiveLog" "StreamSpecificationFilterSensitiveLog" "ExportTableToPointInTimeOutputFilterSensitiveLog" "CsvOptionsFilterSensitiveLog" "TableInUseException" "LocalSecondaryIndexFilterSensitiveLog" "BackupTypeFilter" "ScanInputFilterSensitiveLog" "UpdateFilterSensitiveLog" "QueryCommand" "PutRequestFilterSensitiveLog" "RestoreTableFromBackupInputFilterSensitiveLog" "ListTablesInputFilterSensitiveLog" "S3BucketSourceFilterSensitiveLog" "SSEDescriptionFilterSensitiveLog" "TransactWriteItemFilterSensitiveLog" "ItemCollectionMetricsFilterSensitiveLog" "TableCreationParametersFilterSensitiveLog" "FailureExceptionFilterSensitiveLog" "GlobalTableNotFoundException" "UntagResourceInputFilterSensitiveLog" "UpdateTableReplicaAutoScalingInputFilterSensitiveLog" "CreateReplicaActionFilterSensitiveLog" "UpdateItemCommand" "DeleteItemCommand" "DescribeTimeToLiveOutputFilterSensitiveLog" "UpdateTableReplicaAutoScalingOutputFilterSensitiveLog" "ReplicaGlobalSecondaryIndexDescriptionFilterSensitiveLog" "UpdateGlobalTableOutputFilterSensitiveLog" "UpdateGlobalSecondaryIndexActionFilterSensitiveLog" "ReplicaNotFoundException" "DescribeImportCommand" "DescribeKinesisStreamingDestinationOutputFilterSensitiveLog" "ReplicaAutoScalingDescriptionFilterSensitiveLog" "ExportTableToPointInTimeInputFilterSensitiveLog" "ExecuteStatementInputFilterSensitiveLog" "ListGlobalTablesInputFilterSensitiveLog" "GlobalSecondaryIndexDescriptionFilterSensitiveLog" "ScanOutputFilterSensitiveLog" "AttributeValue" "CancellationReasonFilterSensitiveLog" "DescribeTableInputFilterSensitiveLog" "ReplicaDescriptionFilterSensitiveLog" "KinesisDataStreamDestinationFilterSensitiveLog" "TagFilterSensitiveLog" "CapacityFilterSensitiveLog" "ResourceNotFoundException" "ImportTableInputFilterSensitiveLog" "KeySchemaElementFilterSensitiveLog" "ParameterizedStatementFilterSensitiveLog" "EndpointFilterSensitiveLog" "waitForTableNotExists" "DuplicateItemException" "ExecuteTransactionInputFilterSensitiveLog" "ReplicaGlobalSecondaryIndexSettingsDescriptionFilterSensitiveLog" "AutoScalingPolicyUpdateFilterSensitiveLog" "ListGlobalTablesCommand" "paginateQuery" "IdempotentParameterMismatchException" "DescribeExportCommand" "DeleteReplicationGroupMemberActionFilterSensitiveLog" "DescribeBackupCommand" "UpdateGlobalTableSettingsInputFilterSensitiveLog" "DescribeKinesisStreamingDestinationCommand" "BatchGetItemCommand" "TransactGetItemsCommand" "CreateTableCommand" "DescribeContributorInsightsOutputFilterSensitiveLog" "ExportNotFoundException" "AttributeDefinitionFilterSensitiveLog" "ExecuteStatementCommand" "ConsumedCapacityFilterSensitiveLog" "UpdateItemInputFilterSensitiveLog" "RequestLimitExceeded" "ReplicationGroupUpdateFilterSensitiveLog" "DeleteTableOutputFilterSensitiveLog" "InputCompressionType" "ReplicaFilterSensitiveLog" "CreateTableInputFilterSensitiveLog" "ImportSummaryFilterSensitiveLog" "AttributeValueFilterSensitiveLog" "TransactWriteItemsInputFilterSensitiveLog" "DynamoDBClient" "WriteRequestFilterSensitiveLog" "AutoScalingTargetTrackingScalingPolicyConfigurationDescriptionFilterSensitiveLog" "InvalidRestoreTimeException" "DescribeGlobalTableSettingsOutputFilterSensitiveLog" "ImportConflictException" "ImportTableCommand" "DeleteTableCommand" "ListBackupsCommand" "TransactGetItemFilterSensitiveLog" "waitUntilTableExists" "ExecuteTransactionOutputFilterSensitiveLog" "ImportTableOutputFilterSensitiveLog" "DescribeGlobalTableInputFilterSensitiveLog" "BackupNotFoundException" "ProjectionFilterSensitiveLog" "ExportDescriptionFilterSensitiveLog" "UpdateContributorInsightsInputFilterSensitiveLog" "UpdateGlobalTableSettingsCommand" "ContinuousBackupsDescriptionFilterSensitiveLog" "TableAlreadyExistsException" "BatchExecuteStatementCommand" "SSESpecificationFilterSensitiveLog" "UpdateTimeToLiveCommand" "TagResourceInputFilterSensitiveLog" "DeleteItemInputFilterSensitiveLog" "RestoreTableFromBackupOutputFilterSensitiveLog" "BatchExecuteStatementInputFilterSensitiveLog" "BackupDetailsFilterSensitiveLog" "DescribeTableReplicaAutoScalingInputFilterSensitiveLog" "ListExportsInputFilterSensitiveLog" "BatchStatementErrorFilterSensitiveLog" "PutFilterSensitiveLog" "ReplicaAlreadyExistsException" "RestoreTableFromBackupCommand" "UpdateContributorInsightsCommand" "BatchStatementRequestFilterSensitiveLog" "BillingModeSummaryFilterSensitiveLog" "ExportSummaryFilterSensitiveLog" "PutItemInputFilterSensitiveLog" "DescribeContinuousBackupsOutputFilterSensitiveLog" "SourceTableFeatureDetailsFilterSensitiveLog" "UpdateTimeToLiveOutputFilterSensitiveLog" "GetItemOutputFilterSensitiveLog" "DeleteFilterSensitiveLog" "DescribeTableReplicaAutoScalingCommand" "ListGlobalTablesOutputFilterSensitiveLog" "BackupType" "BackupSummaryFilterSensitiveLog" "UpdateGlobalTableSettingsOutputFilterSensitiveLog" "KinesisStreamingDestinationInputFilterSensitiveLog" "ReplicaGlobalSecondaryIndexFilterSensitiveLog" "paginateScan" "DynamoDB" "DescribeExportOutputFilterSensitiveLog" "UpdateTableOutputFilterSensitiveLog" "UpdateContributorInsightsOutputFilterSensitiveLog" "ReplicaGlobalSecondaryIndexSettingsUpdateFilterSensitiveLog" "DescribeContributorInsightsCommand" "DescribeTableOutputFilterSensitiveLog" "BackupInUseException" "ConditionalCheckFailedException" "ProvisionedThroughputOverrideFilterSensitiveLog" "ListBackupsInputFilterSensitiveLog" "DescribeTableCommand" "DescribeLimitsOutputFilterSensitiveLog" "ItemResponseFilterSensitiveLog" "ConditionCheckFilterSensitiveLog" "InvalidExportTimeException" "LocalSecondaryIndexInfoFilterSensitiveLog" "DeleteBackupInputFilterSensitiveLog" "InternalServerError" "RestoreTableToPointInTimeInputFilterSensitiveLog" "CreateGlobalTableInputFilterSensitiveLog" "AutoScalingSettingsUpdateFilterSensitiveLog" "TableNotFoundException" "TransactGetItemsInputFilterSensitiveLog" "GlobalTableDescriptionFilterSensitiveLog" "DescribeGlobalTableOutputFilterSensitiveLog" "ListImportsInputFilterSensitiveLog" "InputFormat" "DisableKinesisStreamingDestinationCommand" "CreateGlobalTableCommand" "UpdateTimeToLiveInputFilterSensitiveLog" "ListContributorInsightsOutputFilterSensitiveLog" "DescribeEndpointsResponseFilterSensitiveLog" "DeleteBackupOutputFilterSensitiveLog" "LocalSecondaryIndexDescriptionFilterSensitiveLog" "ScanCommand" "DeleteGlobalSecondaryIndexActionFilterSensitiveLog" "ListExportsCommand" "GlobalSecondaryIndexAutoScalingUpdateFilterSensitiveLog" "BatchWriteItemCommand" "DescribeGlobalTableSettingsCommand" "ReplicaGlobalSecondaryIndexAutoScalingDescriptionFilterSensitiveLog" "waitUntilTableNotExists" "CreateBackupCommand" "DeleteBackupCommand" "ExportFormat" "PointInTimeRecoveryDescriptionFilterSensitiveLog" "BatchStatementResponseFilterSensitiveLog" "ExecuteStatementOutputFilterSensitiveLog" "KinesisStreamingDestinationOutputFilterSensitiveLog" "TagResourceCommand" "DeleteItemOutputFilterSensitiveLog" "DescribeEndpointsRequestFilterSensitiveLog" "DescribeBackupInputFilterSensitiveLog" "ListTagsOfResourceOutputFilterSensitiveLog" "BatchWriteItemOutputFilterSensitiveLog" "KeysAndAttributesFilterSensitiveLog" "PutItemOutputFilterSensitiveLog" "DescribeTimeToLiveCommand" "CreateGlobalTableOutputFilterSensitiveLog" "BatchGetItemOutputFilterSensitiveLog" "UntagResourceCommand" "TableDescriptionFilterSensitiveLog" "ProvisionedThroughputExceededException" "GetItemCommand" "QueryInputFilterSensitiveLog")
+cljs꞉part-5꞉> 
+#'part-5/client
+cljs꞉part-5꞉> 
+#'part-5/result
+cljs꞉part-5꞉> 
+#'part-5/handle-promise
+cljs꞉part-5꞉> 
+failure
+#object[Promise [object Promise]]
+cljs꞉part-5꞉> 
+#object[TypeError TypeError: Cannot read property 'ExclusiveStartTableName' of undefined]
+cljs꞉part-5꞉> 
+#object[Promise [object Promise]]
+cljs꞉part-5꞉> 
+success
+(:$metadata :LastEvaluatedTableName :TableNames)
+cljs꞉part-5꞉> 
+["My_Table" "My_Table_2"]
+cljs꞉part-5꞉> 
+#object[Promise [object Promise]]
+cljs꞉part-5꞉> 
+failure
+#object[DynamoDBServiceException ValidationException: No provisioned throughput specified for the table]
+cljs꞉part-5꞉> 
+#object[Promise [object Promise]]
+cljs꞉part-5꞉> 
+success
+{:$metadata {:httpStatusCode 200, :requestId "b429b069-4b95-461d-9e4a-09ccdcd7e69a", :extendedRequestId nil, :cfId nil, :attempts 1, :totalRetryDelay 0}, :TableDescription {:LatestStreamArn nil, :TableStatus "ACTIVE", :LatestStreamLabel nil, :TableClassSummary nil, :RestoreSummary nil, :ItemCount 0, :StreamSpecification nil, :TableId nil, :GlobalSecondaryIndexes nil, :KeySchema [{:AttributeName "PK", :KeyType "HASH"}], :ProvisionedThroughput {:LastDecreaseDateTime #inst "1970-01-01T00:00:00.000-00:00", :LastIncreaseDateTime #inst "1970-01-01T00:00:00.000-00:00", :NumberOfDecreasesToday 0, :ReadCapacityUnits 1, :WriteCapacityUnits 1}, :CreationDateTime #inst "2022-10-24T19:48:23.045-00:00", :LocalSecondaryIndexes nil, :ArchivalSummary nil, :GlobalTableVersion nil, :TableName "My_Table_3", :SSEDescription nil, :Replicas nil, :AttributeDefinitions [{:AttributeName "PK", :AttributeType "N"}], :TableArn "arn:aws:dynamodb:ddblocal:000000000000:table/My_Table_3", :TableSizeBytes 0, :BillingModeSummary nil}}
+cljs꞉part-5꞉> 
+(:$metadata :TableDescription)
+cljs꞉part-5꞉> 
+{:httpStatusCode 200, :requestId "b429b069-4b95-461d-9e4a-09ccdcd7e69a", :extendedRequestId nil, :cfId nil, :attempts 1, :totalRetryDelay 0}
+cljs꞉part-5꞉> 
+{:httpStatusCode 200, :requestId "b429b069-4b95-461d-9e4a-09ccdcd7e69a", :extendedRequestId nil, :cfId nil, :attempts 1, :totalRetryDelay 0}
+cljs꞉part-5꞉> 
+200
+cljs꞉part-5꞉> 
+#object[Promise [object Promise]]
+cljs꞉part-5꞉> 
+success
+["My_Table" "My_Table_2" "My_Table_3"]
+cljs꞉part-5꞉> 
+nil
+cljs꞉api.part_6꞉> 
+nil
+cljs꞉api.part_6꞉> 
+nil
+cljs꞉api.part_6꞉> 
+nil
+cljs꞉api.part_6꞉> 
+nil
+cljs꞉api.part_6꞉> 
+nil
+cljs꞉api.part_6꞉> 
+nil
+cljs꞉api.part_6꞉> 
+nil
+cljs꞉api.part_6꞉> 
+nil
+cljs꞉api.part_6꞉> 
+nil
+cljs꞉api.part_6꞉> 
+nil
+cljs꞉api.part_6꞉> 
+#'api.part_6/my-handler
+cljs꞉api.part_6꞉> 
+nil
+cljs꞉api.part_6꞉> 
+#'api.part_6/my-handler
+cljs꞉api.part_6꞉> 

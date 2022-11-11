@@ -9,5 +9,9 @@
   },
   "devDependencies": {
     "shadow-cljs": "2.8.52"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.192.0",
+    "@slack/bolt": "^3.12.1"
   }
 }
